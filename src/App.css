@@ -1,0 +1,42 @@
+body {
+  margin:0px;
+  padding: 0px;
+  background-image: linear-gradient(125deg,#dd0a35,#e4d1d3,#1687a7);
+  background-size: 900%;
+  animation: bganimation 10s infinite;
+  background-repeat: 
+}
+.App {
+  text-align: center;
+}
+
+.calc-body{
+  max-width:400px;
+  margin:auto;
+}
+
+.result {
+  height: 60px;
+  background-color:#494ca2; 
+  width:100%;
+  color:#e3e7f1;
+}
+
+.result p {
+  font-size:40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.buttons{
+  display: block;
+  background-color: #bbb;
+}
+
+.buttons button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  background: #8186d5;
+  border:0px;
+}
